@@ -18,13 +18,3 @@ Puslapiai yra **dinamiški**: mygtukai keičia tekstus ir rodmenis, AI pranešim
 ## Kaip paleisti
 Atidaryti `index.html` naršyklėje.  
 Visi puslapiai yra susieti per navigaciją (`navbar`).  
-
-## Projekto struktūra
-/ND2-projektas
-index.html apie.html kontaktai.html test.html valdymas.html
-css/
-  variables.css style.css components.css layout.css
-images/
-  smart_home.jpg diagram.jpg
-js/
-  script.js
