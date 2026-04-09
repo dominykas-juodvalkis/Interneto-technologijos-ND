@@ -1,0 +1,30 @@
+/* ===========================
+   CSS KINTAMIEJI (variables)
+   =========================== */
+
+:root {
+    --main-bg: #f4f6f9;
+    --main-color: #111827;
+    --primary: #1d4ed8;
+    --secondary: #2563eb;
+    --card-bg: #ffffff;
+    --header-bg: #1e40af;
+    --footer-bg: #1e3a8a;
+    
+    --font-family: "Times New Roman", serif;
+    --transition: 0.3s;
+}
+
+/* Dark tema */
+.dark-mode {
+    --main-bg: #0f172a;
+    --main-color: #f4f6f9;
+    --primary: #1d4ed8;
+    --secondary: #3b82f6;
+    --card-bg: #1e293b;
+    --header-bg: #1e293b;
+    --footer-bg: #1e293b;
+
+    --font-family: "Times New Roman", serif;
+    --transition: 0.3s;
+}

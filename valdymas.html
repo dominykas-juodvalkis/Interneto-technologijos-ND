@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Išmaniųjų namų valdymas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI išmaniuosiuose namuose | Valdymas</title>
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body class="with-transition">
+
+<header class="site-header">
+    <h1>Dirbtinio intelekto naudojimas išmaniuosiuose namuose</h1>
+    <h2>Valdymas</h2>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Pagrindinis</a></li>
+            <li><a href="apie.html">Apie</a></li>
+            <li><a href="test.html">Testavimas</a></li>
+            <li><a href="valdymas.html">Valdymas</a></li>
+            <li><a href="kontaktai.html">Kontaktai</a></li>
+        </ul>
+    </nav>
+
+    <div class="theme-toggle">
+        <button onclick="toggleTheme()">Dark / Light</button>
+    </div>
+</div>
+</header>
+
+<main>
+<section class="flex-container">
+
+    <div class="box">
+        <h3>Apšvietimas</h3>
+        <p>Statusas: <span id="lightStatus">Išjungta</span></p>
+        <button onclick="toggleLightStatus()">Įjungti / Išjungti</button>
+    </div>
+
+    <div class="box">
+        <h3>Temperatūra</h3>
+        <p>Dabartinė: <span id="tempValue">22°C</span></p>
+        <button onclick="increaseTempValue()">Padidinti</button>
+        <button onclick="decreaseTempValue()">Sumažinti</button>
+    </div>
+
+    <div class="box">
+        <h3>AI pranešimai</h3>
+        <p id="aiMsgBox">Laukia pranešimo...</p>
+        <button onclick="simulateAIBox()">Rodyti pranešimą</button>
+    </div>
+
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 ND2 projektas</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

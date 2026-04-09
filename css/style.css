@@ -1,18 +1,32 @@
+/* ===========================
+   BENDRI STILIAI
+   =========================== */
+
 body {
-    font-family: "Times New Roman", serif;
-    margin: 0;
-    background-color: #f4f6f9;
+    font-family: var(--font-family);
+    background-color: var(--main-bg);
+    color: var(--main-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     line-height: 1.6;
+    margin: 0;
+}
+
+body.with-transition {
+    transition: background-color var(--transition), color var(--transition);
 }
 
 .site-header {
-    background-color: #0f172a;
-    color: white;
+    background-color: var(--header-bg);
+    color: var(--main-color);
     padding: 20px 0;
     text-align: center;
+    position: relative;
+    transition: background-color var(--transition), color var(--transition);
 }
 
-.site-title h1 {
+.site-header h1 {
     margin: 0;
     font-size: 26px;
 }
@@ -27,7 +41,7 @@ body {
 }
 
 .navbar a {
-    color: white;
+    color: var(--main-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -37,56 +51,21 @@ body {
 }
 
 main {
-    padding: 20px;
-}
-
-.main-img {
-    width: 400px;
-    margin: 15px 0;
-}
-
-table {
-    border-collapse: collapse;
-    width: 70%;
-    margin-top: 15px;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: center;
-}
-
-th {
-    background-color: #dbeafe;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-}
-
-input, select, textarea {
-    margin-bottom: 10px;
-    padding: 6px;
-}
-
-button {
-    background-color: #1e3a8a;
-    color: white;
-    padding: 8px;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2563eb;
+    flex: 1;
+    margin: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+    line-height: 1.7;
 }
 
 footer {
-    text-align: center;
     padding: 10px;
-    background-color: #e5e7eb;
-    margin-top: 20px;
+    background-color: var(--footer-bg);
+    color: var(--main-color);
+    transition: background-color var(--transition), color var(--transition);
+}
+
+footer p{
+    text-align: center;
 }

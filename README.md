@@ -1,27 +1,42 @@
-# ND1 projektas
+# ND2 projektas
 
-Nuoroda į projektą: [ND1 projektas]
-(https://github.com/dominykas-juodvalkis/Interneto-technologijos-ND1) github
+**Nuoroda į projektą:** [ND projektas](https://github.com/dominykas-juodvalkis/Interneto-technologijos-ND)
 
-# Projekto tema
-Dirbtinio intelekto naudojimas išmaniuosiuose namuose
+## Projekto tema
+Dirbtinio intelekto naudojimas išmaniuosiuose namuose – dinaminių tinklapių kūrimas naudojant JavaScript, CSS karkasą, Flex ir Grid išdėstymą bei responsive dizainą.
 
 ## Aprašymas
-Trijų puslapių tinklapis apie AI pritaikymą išmaniuosiuose namuose.
+Šiame projekte sukurti **penki HTML puslapiai**:  
+1. `index.html` – pagrindinis puslapis apie išmaniuosius namus  
+2. `apie.html` – AI veikimo principas  
+3. `kontaktai.html` – kontaktų forma  
+4. `test.html` – AI sistemų testavimo puslapis su interaktyviais mygtukais  
+5. `valdymas.html` – AI valdymo puslapis su apšvietimo ir temperatūros kontrolės funkcijomis  
+
+Puslapiai yra **dinamiški**: mygtukai keičia tekstus ir rodmenis, AI pranešimai atnaujinami pagal sąveiką.
 
 ## Kaip paleisti
-Atidaryti index.html naršyklėje.
+Atidaryti `index.html` naršyklėje.  
+Visi puslapiai yra susieti per navigaciją (`navbar`).  
 
-## Struktūra
-- index.html – pagrindinis puslapis
-- apie.html – AI veikimo principas
-- kontaktai.html – kontaktų forma
-- css/style.css – stiliai
-- images/ – paveikslėliai
-
-# Autorius
-
-[Dominykas Juodvalkis] (https://github.com/dominykas-juodvalkis)
-
-
-Dominykas : [Github](https://github.com/dominykas-juodvalkis)
+## Projekto struktūra
+/ND2-projektas
+│
+├─ index.html
+├─ apie.html
+├─ kontaktai.html
+├─ test.html
+├─ valdymas.html
+│
+├─ css/
+│ ├─ variables.css
+│ ├─ style.css
+│ ├─ components.css
+│ └─ layout.css
+│
+├─ images/
+│ ├─ smart_home.jpg
+│ └─ diagram.jpg
+│
+└─ js/
+└─ script.js

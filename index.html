@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta name="description" content="Dirbtinio intelekto naudojimas išmaniuosiuose namuose">
     <meta name="keywords" content="AI, išmanieji namai, smart home">
-    <meta name="author" content="Vardas Pavardė">
+    <meta name="author" content="Dominykas Juodvalkis">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>AI išmaniuosiuose namuose | Pagrindinis</title>
 
+    <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 
-<body>
+<body class="with-transition">
 
 <header class="site-header">
     <div class="site-title">
         <h1>Dirbtinio intelekto naudojimas išmaniuosiuose namuose</h1>
     </div>
     <h2>Išmaniųjų namų apibendrinimas</h2>
+
+    <!-- Navigacija -->
     <nav>
         <ul class="navbar">
             <li><a href="index.html">Pagrindinis</a></li>
-            <li><a href="apie.html">Kaip veikia AI?</a></li>
-            <li><a href="kontaktai.html">Kontaktai</a></li>
+            <li><a href="apie.html">Apie</a></li>
+            <li><a href="test.html">Testavimas</a></li>
+            <li><a href="valdymas.html">Valdymas</a></li>
+            <li><a href="kontaktai.html">Kontaktai</a></li>            
         </ul>
     </nav>
+    
+    <div class="theme-toggle">
+        <button onclick="toggleTheme()">Dark / Light</button>
+    </div>
 </header>
 
 <main>
@@ -93,8 +104,9 @@
 </main>
 
 <footer>
-    <p>&copy; 2025 ND1 projektas</p>
+    <p>&copy; 2026 ND1 projektas</p>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 </html>
